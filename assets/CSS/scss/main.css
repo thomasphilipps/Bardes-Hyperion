@@ -9,11 +9,10 @@ header {
   background-color: #082431;
 }
 
-main {
+main, footer {
   color: white;
 }
 
 footer {
-  color: darkgrey;
   background-color: #0a2e3f;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */
