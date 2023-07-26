@@ -1,0 +1,17 @@
+$main-color: #082431;
+$main-color-light: lighten($main-color, 3%);
+$main-color-dark: darken($main-color, 5%);
+
+$text-bg-dark-color: #cccbcb;
+$text-color-secondary: darkgrey;
+$cursive-text: 'Tangerine', cursive;
+
+@mixin lettrine {
+  font-family: $cursive-text;
+  float: left;
+  text-shadow: 3px 3px 3px silver;
+  font-size: 3em;
+  line-height: 80%;
+  margin: -0.1em 0px;
+  padding-right: 0.1em;
+}
