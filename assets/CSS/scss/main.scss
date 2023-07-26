@@ -1,22 +1,32 @@
 @import "./consts.scss";
 
 body {
+  background-color: $main-color;
   margin: 0;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  color: $text-bg-dark-color;
 }
 
 header {
-  background-color: $main-color;
+  background-color: $main-color-dark;
 }
 
-main {
+.btn {
+  background-color: $main-color-light;
   color: white;
 }
 
 footer {
   color: $text-color-secondary;
   background-color: $main-color-light;
+  .copyright {
+    background-color: $main-color;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  color: $text-bg-dark-color;
 }
 

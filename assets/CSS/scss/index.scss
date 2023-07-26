@@ -1,0 +1,25 @@
+@import "./consts.scss";
+@import "./main.css";
+
+.lettrine {
+  @include lettrine;
+}
+
+.index-title {
+  .lettrine {
+    float: none;
+    font-size: 3em;
+  }
+  margin: 1em 0 3em 0;
+}
+
+.card-header {
+  background: none;
+  color: $main-color-light;
+}
+
+.index-presentation {
+  h3 {
+    margin-bottom: 1.5em;
+  }
+}
