@@ -1,3 +1,21 @@
+.lettrine {
+  font-family: "Tangerine", cursive;
+  float: left;
+  text-shadow: 3px 3px 3px silver;
+  font-size: 3em;
+  line-height: 80%;
+  margin: -0.1em 0px;
+  padding-right: 0.1em;
+}
+
+.main-title {
+  margin: 1em 0 3em 0;
+}
+.main-title .lettrine {
+  float: none;
+  font-size: 3em;
+}
+
 body {
   background-color: #082431;
   margin: 0;

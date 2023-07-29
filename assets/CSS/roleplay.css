@@ -1,1 +1,14 @@
-@import "./main.css";/*# sourceMappingURL=roleplay.css.map */
+@import "./main.css";
+.article-emphasis {
+  margin-bottom: 1.5em;
+}
+
+.types-title {
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 1em;
+  margin-bottom: 1.5em;
+}
+.types-title .lettrine {
+  float: none;
+}/*# sourceMappingURL=roleplay.css.map */
