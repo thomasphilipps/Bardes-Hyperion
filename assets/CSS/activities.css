@@ -1,1 +1,9 @@
-@import "./main.css";/*# sourceMappingURL=activities.css.map */
+@import "./main.css";
+h5 .lettrine {
+  float: none;
+}
+
+.card-header {
+  background: none;
+  color: #0a2e3e;
+}/*# sourceMappingURL=activities.css.map */
