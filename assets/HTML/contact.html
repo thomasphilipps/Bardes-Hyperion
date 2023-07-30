@@ -143,15 +143,17 @@
               ></textarea>
             </div>
             <div class="text-md-start">
-              <button
-                type="button"
+              <a
+                tabindex="0"
+                role="button"
                 class="btn btn-primary"
+                data-bs-trigger="focus"
                 data-bs-toggle="popover"
                 data-bs-title="Bientôt !"
                 data-bs-content="Le formulaire sera bientôt actif, en attendant contactez-nous par mail !"
               >
                 Envoyer
-              </button>
+              </a>
             </div>
           </form>
         </div>
@@ -255,6 +257,9 @@
       const popoverList = [...popoverTriggerList].map(
         (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
       );
+      const popover = new bootstrap.Popover(".popover-dismiss", {
+        trigger: "focus",
+      });
     </script>
   </body>
 </html>
