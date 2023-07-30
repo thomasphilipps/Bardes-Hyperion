@@ -1,5 +1,17 @@
 @import "./consts.scss";
 
+.lettrine {
+  @include lettrine;
+}
+
+.main-title {
+  .lettrine {
+    float: none;
+    font-size: 3em;
+  }
+  margin: 1em 0 3em 0;
+}
+
 body {
   background-color: $main-color;
   margin: 0;
